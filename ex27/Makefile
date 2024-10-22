@@ -1,27 +1,19 @@
 # Variables
+NAME = ft_display_file
 CC = cc -Wall -Wextra -Werror
-SRC_DIR = srcs
-INC_DIR = includes
-SRCS = $(SRC_DIR)/ft_putchar.c $(SRC_DIR)/ft_swap.c $(SRC_DIR)/ft_putstr.c $(SRC_DIR)/ft_strlen.c $(SRC_DIR)/ft_strcmp.c
-OBJS = $(SRCS:.c=.o)
-LIB = ft_display_file
+SRC = ft_display_file.c
+OBJ = $(SRCS:.c=.o)
 
 # Targets
-all: $(LIB)
+all: $(NAME)
 
-$(LIB): $(OBJS)
-	echo "Creating library $(LIB)"
-	ar rcs $(LIB) $(OBJS)
+$(NAME): $(OBJ)
+	$(CC) -o $@ $^
 
 clean:
-	echo "Cleaning object files"
-	rm -f $(OBJS)
+	rm -f $(OBJ)
 
 fclean: clean
-	echo "Removing library $(LIB)"
-	rm -f $(LIB)
+	rm -f $(NAME)
 
-# Compile object files
-%.o: %.c
-	echo "Compiling $< into $@"
-	$(CC) -I$(INC_DIR) -c $< -o $@
+re: fclean all
