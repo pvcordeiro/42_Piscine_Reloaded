@@ -6,7 +6,7 @@
 /*   By: paude-so <paude-so@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 21:02:06 by paude-so          #+#    #+#             */
-/*   Updated: 2024/10/22 14:22:01 by paude-so         ###   ########.fr       */
+/*   Updated: 2024/10/22 16:20:49 by paude-so         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int	main(int argc, char **argv)
 	while (i <= argc - 1)
 	{
 		ft_putstr(argv[i]);
-		ft_putchar('\n');
+		ft_putstr("\n");
 		i++;
 	}
 	return (0);
