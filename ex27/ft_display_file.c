@@ -6,7 +6,7 @@
 /*   By: paude-so <paude-so@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 18:40:36 by paude-so          #+#    #+#             */
-/*   Updated: 2024/10/22 18:55:21 by paude-so         ###   ########.fr       */
+/*   Updated: 2024/10/22 19:04:31 by paude-so         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@
 
 #define BUFFER_SIZE 4096
 
-void	display_error(const char *message)
+void	display_error(const char *message, int length)
 {
-	write(2, message, sizeof(message));
+	write(2, message, length);
 }
 
 int	open_file(char *filename)
@@ -44,14 +44,14 @@ int	main(int argc, char *argv[])
 	int		fd;
 
 	if (argc < 2)
-		display_error("File name missing.\n");
+		display_error("File name missing.\n", 19);
 	else if (argc > 2)
-		display_error("Too many arguments.\n");
+		display_error("Too many arguments.\n", 21);
 	else
 	{
 		fd = open_file(argv[1]);
 		if (fd == -1)
-			display_error("Cannot read file.\n");
+			display_error("Cannot read file.\n", 18);
 		else
 		{
 			read_and_display(fd);
