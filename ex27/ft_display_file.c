@@ -6,7 +6,7 @@
 /*   By: paude-so <paude-so@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 18:40:36 by paude-so          #+#    #+#             */
-/*   Updated: 2024/10/23 11:42:05 by paude-so         ###   ########.fr       */
+/*   Updated: 2024/10/23 12:27:50 by paude-so         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int	main(int argc, char *argv[])
 	if (argc < 2)
 		display_error("File name missing.\n", 19);
 	else if (argc > 2)
-		display_error("Too many arguments.\n", 21);
+		display_error("Too many arguments.\n", 20);
 	else
 	{
 		fd = open_file(argv[1]);
