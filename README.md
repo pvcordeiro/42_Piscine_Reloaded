@@ -66,4 +66,4 @@ During the Piscine Reloaded, I had the opportunity to participate in various act
 
 ## Outro 🌟
 
-The piscine reloaded was a wonderful opportunity to relax, code, and connect with fellow students! 🌈 I truly enjoyed meeting new people and sharing experiences while enhancing my skills.
+The piscine reloaded was a wonderful opportunity to relax, code, and connect with fellow students! I truly enjoyed meeting new people and sharing experiences while enhancing my skills.
