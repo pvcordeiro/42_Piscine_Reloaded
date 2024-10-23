@@ -6,13 +6,13 @@
 /*   By: paude-so <paude-so@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 19:51:18 by paude-so          #+#    #+#             */
-/*   Updated: 2024/10/22 16:54:14 by paude-so         ###   ########.fr       */
+/*   Updated: 2024/10/23 11:28:54 by paude-so         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_swap(int *a, int *b)
 {
-	int	*temp;
+	int	temp;
 
 	temp = *a;
 	*a = *b;

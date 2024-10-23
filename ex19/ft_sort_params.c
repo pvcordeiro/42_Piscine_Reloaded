@@ -6,9 +6,11 @@
 /*   By: paude-so <paude-so@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 10:33:46 by paude-so          #+#    #+#             */
-/*   Updated: 2024/10/22 17:06:01 by paude-so         ###   ########.fr       */
+/*   Updated: 2024/10/23 11:30:04 by paude-so         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+void	ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {
