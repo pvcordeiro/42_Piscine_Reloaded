@@ -18,6 +18,7 @@ The 42 piscine reloaded is a special opportunity designed to help you revisit ke
 
 Here's a list of all the exercises in the piscine reloaded:
 
+- [**Subject**](https://github.com/pvcordeiro/42_Piscine_Reloaded/tree/main/en.subject.pdf)
 - [**Exercise 00:** Oh yeah, mooore...](https://github.com/pvcordeiro/42_Piscine_Reloaded/tree/main/ex00)
 - [**Exercise 01:** Z](https://github.com/pvcordeiro/42_Piscine_Reloaded/tree/main/ex01)
 - [**Exercise 02:** clean](https://github.com/pvcordeiro/42_Piscine_Reloaded/tree/main/ex02)
