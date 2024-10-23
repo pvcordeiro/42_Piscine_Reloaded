@@ -7,7 +7,6 @@ Welcome to my 42 piscine reloaded projects repository! 🌊 This repo contains a
 - [About 📝](#about-)
 - [Exercises 🛠️](#exercises-)
 - [Technologies 🛡️](#technologies-)
-- [Getting Started 🚀](#getting-started-)
 - [Outro 🌟](#outro-)
   
 ## About 📝
