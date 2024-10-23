@@ -4,12 +4,12 @@ Welcome to my 42 piscine reloaded projects repository! 🌊 This repo contains a
 
 ## Table of Contents 📚
 
-- [About](#about)
-- [Exercises](#exercises)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-
+- [About 📝](#about-)
+- [Exercises 🛠️](#exercises-)
+- [Technologies 🛡️](#technologies-)
+- [Getting Started 🚀](#getting-started-)
+- [Outro 🌟](#outro-)
+  
 ## About 📝
 
 The 42 piscine reloaded is a special opportunity designed to help you revisit key concepts and solidify your knowledge before diving into the 42 common core. It’s a great chance to review foundational concepts, collaborate with peers, and get a head start on upcoming challenges. Whether you're refining your skills or getting familiar with the 42 learning environment, Piscine Reloaded is the perfect way to prepare! 💻🤝
